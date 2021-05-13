@@ -9,7 +9,7 @@ vector<vector<int>> transposeMatrix(vector<vector<int>> arr) {
 	 /*Iterate column wise*/
 	 for(int j=0;j<arr[i].size();j++)
 	 {
-	     /*Interchange the row and matrix to get transpose matrixc*/
+	     /*Interchange the row and matrix to get transpose matrix*/
 	     matrixTranspose[j][i]=arr[i][j];
 	 }
      }
