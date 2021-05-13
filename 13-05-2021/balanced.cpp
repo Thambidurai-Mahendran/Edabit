@@ -13,7 +13,7 @@ bool balanced(std::string word) {
 	{
 		i=word.size()/2;
 	}
-	/*If the string size is odd we continue the starting index is half of the string size increamented by one */
+	/*If the string size is odd we continue the starting index is half of the string size incremented by one */
 	else
 	{
 		i=word.size()/2+1;
