@@ -1,10 +1,10 @@
 bool isMiniSudoku(std::vector<std::vector<int>> square) {
 	/*create integer array*/
 	std::vector<int>numsCount;
-	/*Iterate row vise*/
+	/*Iterate row wise*/
 	for(int i=0;i<3;i++)
 	{    
-		/*Iterate column vise*/
+		/*Iterate column wise*/
 		for(int j=0;j<3;j++)
 		{  
 			/*to check the sudoku elements between the range 0 to 9.if any one element is not in the range we return false .*/
