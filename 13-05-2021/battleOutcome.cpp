@@ -6,7 +6,7 @@ int battleOutcome(int num) {
 	 /*iterate the full string and the index is incremented by two each steps*/
 	 for(int i=0;i<numStr.size();i+=2)
 	 {  
-	    /*if numStr[i] andnumStr[i+1]  values are different we find the big value and add it to the battleOutstring*/
+	        /*if numStr[i] andnumStr[i+1]  values are different we find the big value and add it to the battleOutstring*/
 		if(numStr[i]!=numStr[i+1])
 		{
 		   battleOut+=(numStr[i]>numStr[i+1])?numStr[i]:numStr[i+1];
