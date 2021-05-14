@@ -18,15 +18,15 @@ std::string afterPotion(std::string s) {
 		   {
 			 s[i]=s[i]+1;
 			 afterPotions+="01";
-	       }
+	           }
 		   else s[i]=s[i]+1;
 	   }
 	   if(s[i]>='0'&&s[i]<='9')
 	   {
 		   afterPotions+=s[i];
 	   }
-	}
-    /* Since the iteration is done in decreasing order,the obtained answer will be the reverse of the correct one  and hence the  answer should be  reversed.*/
-	reverse(afterPotions.begin(),afterPotions.end());
-	return afterPotions;
+      }
+     /* Since the iteration is done in decreasing order,the obtained answer will be the reverse of the correct one  and hence the  answer should be  reversed.*/
+     reverse(afterPotions.begin(),afterPotions.end());
+     return afterPotions;
 }
