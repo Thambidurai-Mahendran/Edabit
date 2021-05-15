@@ -12,10 +12,11 @@ Examples
 */
 using namespace std; 
 std::vector<int> mysteryFunc(std::string str) {
-	  vector<int> ans;
+	vector<int> ans;
 	/*below looping used to find the reminder when the Ascii values of the charater divided by string size*/  
-    for(int i=0; i<str.size(); i++){
-        ans.push_back((int)str[i]%str.size());
-    }
-    return ans;
+        for(int i=0; i<str.size(); i++)
+	{
+             ans.push_back((int)str[i]%str.size());
+        }
+        return ans;
 }
