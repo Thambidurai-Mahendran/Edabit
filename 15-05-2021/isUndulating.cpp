@@ -27,19 +27,19 @@ bool isUndulating(int n) {
 	int size=undulatingNums.size();
 	/*Given number contains less than 3 digits we return false*/
 	if(size<3) 
-		return false;
+	   return false;
 	char firstLetter= undulatingNums[0],secondLetter= undulatingNums[1];
 	/*we check the even index place characters are same or not*/
 	for(int i=2;i<size;i+=2)
 	{
 		if( undulatingNums[i]!=firstLetter) 
-			return false;
+		return false;
 	}
-	/*/*we check the odd index place characters are same or not*/*/
+	/*we check the odd index place characters are same or not*/
 	for(int i=3;i<size;i+=2)
 	{
 		if( undulatingNums[i]!=secondLetter) 
-			return false;
+		return false;
 	}
 	return true;
 }
