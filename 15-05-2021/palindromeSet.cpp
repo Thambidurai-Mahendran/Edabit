@@ -18,10 +18,11 @@ std::vector<int> palindromeSet(std::vector<std::string> arr) {
 	vector<int>palindromes;
 	
 	for(int i=0;i<arr.size();i++)
-	{ int count=0;
-	 string nums="",reverseNums="";
-	string alphabets="",revAlphabets="";
-	/* below looping used to divide the alphabets string and numbers string separately*/
+	{ 
+		int count=0;
+	        string nums="",reverseNums="";
+	        string alphabets="",revAlphabets="";
+	        /* below looping used to divide the alphabets string and numbers string separately*/
 		for(int j=0;j<arr[i].size();j++)
 		{
 			if(arr[i][j]>='0'&&arr[i][j]<='9')
