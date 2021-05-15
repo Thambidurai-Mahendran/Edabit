@@ -37,9 +37,9 @@ int maxConsec(std::vector<int> arr) {
 		if(arr[i]+1==arr[i+1]||arr[i]==arr[i+1])
 		{ 
 			if(arr[i]+1==arr[i+1])
-		    count++;
+		             count++;
 			if(longestRange<count)
-			longestRange=count;
+			    longestRange=count;
 		}
 		else count=1;
 	}
