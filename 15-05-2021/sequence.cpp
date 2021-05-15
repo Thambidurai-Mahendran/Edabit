@@ -11,11 +11,12 @@ seq(6) ? 52
 */
 using namespace std;
 int seq(int n) {
-	  int sequence = 4;
+    int sequence = 4;
     int result = 2;
-	  if(n == 0)
-			return 1;
-    for(int i = 1; i < n; i++) {
+    if(n == 0)
+	return 1;
+    for(int i = 1; i < n; i++) 
+    {
         result += sequence;
         sequence += 3;
     }
