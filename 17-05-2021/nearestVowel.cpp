@@ -18,8 +18,8 @@ char nearestVowel(char s) {
 	{
 		if(s1=='a'||s1=='e'||s1=='i'||s1=='o'||s1=='u')
 			return s1;
-			if(s2=='a'||s2=='e'||s2=='i'||s2=='o'||s2=='u')
-				return s2;
+		if(s2=='a'||s2=='e'||s2=='i'||s2=='o'||s2=='u')
+			return s2;
 		s1--;
 		s2++;
 	}
