@@ -34,8 +34,8 @@ std::string daysUntil2021(std::string date) {
 int getMonthDays(int m)
 {
 	if(m==4 || m==6 || m==9 || m==11) 
-		  return 30;
-  else if(m==2) 
-			return 29;
-   else  return 31;
+	   return 30;
+       else if(m==2) 
+       	  return 29;
+       else  return 31;
 }
