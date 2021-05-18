@@ -13,7 +13,8 @@ bool isShapePossible(int n, std::vector<int> angles) {
 	if (n < 3)
 		return false;
 	int count = 0;
-	for (int i = 0; i < angles.size(); i++) {
+	for (int i = 0; i < angles.size(); i++) 
+	{
 		/*angles must be equals or under 180° and over 0°.*/
 		if (angles[i]>180||angles[i]<1) 
 			return false;
@@ -21,5 +22,6 @@ bool isShapePossible(int n, std::vector<int> angles) {
 	}
 	if(count == (n - 2)*180)
 		return true;
-	else return false;
+	else
+		return false;
 }
