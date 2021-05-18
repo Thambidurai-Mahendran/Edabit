@@ -20,7 +20,7 @@ std::string fractionHalf(std::string fraction) {
 		else parts[j]+=fraction[i];
 	}
 	/*stoi function used to convert the string to integer*/
-  int num=stoi(parts[0]);
+        int num=stoi(parts[0]);
 	int den=stoi(parts[1]);
 	if(num%2==0)
 		num/=2;
