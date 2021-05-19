@@ -15,9 +15,10 @@ std::string indexFilter(std::vector<int> idx, std::string str){
   for(int i=0;i<idx.size();i++)
 	{   
 	    /*if the integer array element is negative then , we add the number with size of the string to get the index value */
-		if(idx[i]<0)
-	    indexFiltering.push_back(tolower(str[str.size()+idx[i]]));
-		else 
-			indexFiltering.push_back(tolower(str[idx[i]]));
-  }return indexFiltering;
+	    if(idx[i]<0)
+	       indexFiltering.push_back(tolower(str[str.size()+idx[i]]));
+	    else 
+		indexFiltering.push_back(tolower(str[idx[i]]));
+  }
+  return indexFiltering;
 }
