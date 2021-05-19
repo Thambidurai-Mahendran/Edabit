@@ -9,8 +9,9 @@ calc(3, 3) ? 6
 calc(4, 4) ? 20
 */
 int calc(int m, int n){
-	/*We use recursive function to get the all possible paths*/
+    /*We use recursive function to get the all possible paths*/
     if(m == 1 || n == 1)
-			return 1;
-	  else calc(m - 1, n) + calc(m, n - 1);
+	return 1;
+    else 
+	calc(m - 1, n) + calc(m, n - 1);
 }
