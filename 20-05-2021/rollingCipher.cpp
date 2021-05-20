@@ -17,18 +17,18 @@ std::string rollingCipher(std::string str, int n) {
 	string cipher;
 	int ascii;	
 	/*we subtract and add 26 with the ascii value when the ascii values of the character is more than 122 and less than 97 */
-  for (int i=0; i<str.size();i++)
+        for (int i=0; i<str.size();i++)
 	{
-	  ascii= str[i]+n;
-	  if (ascii>122)
+	        ascii= str[i]+n;
+	        if (ascii>122)
 		{
 			ascii=ascii-26;
 		}
-	  else if (ascii<97)
+	        else if (ascii<97)
 		{
 			ascii=ascii+26;
 		}
-	  cipher.push_back(ascii);
+	         cipher.push_back(ascii);
 	}
-  return cipher;
+        return cipher;
 }
