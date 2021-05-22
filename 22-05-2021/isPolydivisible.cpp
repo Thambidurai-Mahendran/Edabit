@@ -28,9 +28,9 @@ bool isPolydivisible(long n) {
 	int num=1;
 	for(int i=0;i<divisible.size();i++)
 	{    
-	    //The number formed by its first two digits ab is a multiple of 2.
-        //The number formed by its first three digits abc is a multiple of 3.
-        //The number formed by its first four digits abcd is a multiple of 4.
+	        //The number formed by its first two digits ab is a multiple of 2.
+                //The number formed by its first three digits abc is a multiple of 3.
+                //The number formed by its first four digits abcd is a multiple of 4.
 		std::string step="";
 		for(int j=0;j<=i;j++)
 		{
