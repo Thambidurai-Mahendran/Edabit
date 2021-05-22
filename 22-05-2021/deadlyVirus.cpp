@@ -61,9 +61,9 @@ vector<vector<char>> deadlyVirus(vector<vector<char>> persons, int n) {
 		}
 		//updated array containing affected and unaffected persons after n hours.
 		for(int i=0;i<persons.size();i++)
-			for(int j=0;j<persons[i].size();j++)
-				if(virus[i][j]=='V')
-					persons[i][j]=='V';
+		   for(int j=0;j<persons[i].size();j++)
+			if(virus[i][j]=='V')
+			    persons[i][j]='V';
 	}
 	return persons;
 }
