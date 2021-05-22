@@ -22,11 +22,11 @@ bool isParselTongue(std::string s) {
 	{ 
 		if(s[i]=='s'||s[i]=='S')
 		{
-       if(s[i+1]=='s'||s[i-1]=='s'||s[i-1]=='S')
+                         if(s[i+1]=='s'||s[i-1]=='s'||s[i-1]=='S')
 			 {
 				 
 			 }
-			else return false;
+			 else return false;
 				
 		}
 		
