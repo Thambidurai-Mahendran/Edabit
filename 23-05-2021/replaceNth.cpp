@@ -21,17 +21,18 @@ replaceNth("Writing a list of random sentences is harder than I initially though
 using namespace std;
 std::string replaceNth(std::string str, int nth, std::string oldChar, std::string newChar) {
 	  int count=0;
-	  for(size_t i=0;i<str.size();i++)
-	   //we count the instance of  a characater 
-        if(str[i]==oldChar[0])
-				{
-            count++;
-            //If the instance of a character is equal to nth value ,the old character being replaced by the new character.
-            if(count==nth)
-						{
-                str[i]=newChar[0];
-                count=0;
-            }
-        }
+	  for(size_t i=0;i<str.size();i++){
+	         //we count the instance of  a characater 
+                 if(str[i]==oldChar[0])
+		 {
+                      count++;
+                      //If the instance of a character is equal to nth value ,the old character being replaced by the new character.
+                      if(count==nth)
+		      {
+                          str[i]=newChar[0];
+                          count=0;
+                      }
+                  }
+	  }	  
         return str;
 }
