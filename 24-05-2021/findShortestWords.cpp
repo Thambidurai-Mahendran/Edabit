@@ -9,6 +9,7 @@ findShortestWords("Chase two rabbits, catch none.") ? ["two"]
 findShortestWords("We become what we think about.") ? ["we", "we"]
 
 findShortestWords("The quick brown fox jumped over the lazy dogs back.") ? ["fox", "the", "the"]
+NOTE:except one case.
 */
 std::vector<std::string> findShortestWords(std::string s) {
 	std::vector<std::string>shortestWords;
