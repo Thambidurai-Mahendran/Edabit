@@ -16,9 +16,9 @@ int main()
 	file<<" \n 1.Append somehting ...";
 	file.close();
 	//READ THE FILE
-    file.open("MyfirsttextFile.txt",ios::in);
-    string ch;
-    while(file >> ch)
+        file.open("MyfirsttextFile.txt",ios::in);
+        string ch;
+        while(file >> ch)
 	{
 		cout << ch << " " ;
 	}
