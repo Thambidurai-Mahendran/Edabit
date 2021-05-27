@@ -6,7 +6,8 @@ class codeOfYear
   protected:
   	int yearCode;
    public:
-	  void findYearCode(int year)
+	        //Find a year code
+	        void findYearCode(int year)
 		{
 			if(year>=1600&&year<=1699)
 			yearCode=6;
@@ -25,7 +26,8 @@ class codeOfMonth
 {     
      protected:
            int monthCode;
-      public :
+      public :  
+	        //Find a month code
 		void findMonthCode(string month)
 		{
 			if(month=="January")monthCode=0;
@@ -47,7 +49,8 @@ class findTwo{
 	protected:
 		int lastTwo,divide;
 	public:
-	    void findLastTwo(int year)
+	        //find a last two digit of a year. 
+	        void findLastTwo(int year)
 		{
 			lastTwo=year%100;
 			divide=lastTwo/4;
@@ -57,6 +60,7 @@ class findTheDate :public findTwo,public codeOfMonth,public codeOfYear
 {   
     int sum,yearCode;
 	public:
+	        //find the total
 		int findTheTotal(int day,int year)
 		{   
 		    
