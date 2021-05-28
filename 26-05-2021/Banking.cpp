@@ -45,6 +45,7 @@ class Bank
 			cout << "\nEnter Your District Name : " ;
 			cin >> s[a].district;
 			s[a].balance=0;
+			s[a].no=num;
 			cout << "\nYOUR ACCOUNT NUM IS : " << num <<endl;
 			cout << "\n!!!!!!!!! ACCOUNT CREATED SUCCESSFULLY !!!!!!!!!!!\n\n\n ";
 			num++;
