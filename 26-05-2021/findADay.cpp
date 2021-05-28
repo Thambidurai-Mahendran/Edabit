@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+enum {sunday,monday,tuesday,wednesday,thursday,friday,saturday
+};
 class codeOfYear
 {   
   protected:
@@ -92,22 +93,22 @@ int main()
 	switch(result)
 	{
 		
-		case 0:
+		case sunday:
 			cout << "Sunday ";
 			break;
-		case 1:
+		case monday:
 			cout << "Monday ";
 			break;
-		case 2:
+		case tuesday:
 			cout << "Tuesday ";
 			break;
-		case 3:
+		case wednesday:
 			cout << "Wednesday ";
 			break;
-		case 4:
+		case thursday:
 			cout << "Thursday ";
 			break;
-		case 5:
+		case friday:
 			cout << "Friday";	
 			break;	
 		default:
