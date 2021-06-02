@@ -9,7 +9,7 @@ int main()
 	std::cin >> n;
 	std::string names[n];
 	float timings[n];
-    for(int i=0;i<n;i++)
+        for(int i=0;i<n;i++)
 	{
 		std::cin >> names[i] >> timings[i] ;
 	}
