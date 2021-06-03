@@ -48,8 +48,8 @@ int main()
 	std::cout << "How many billionaires in the list : " ;
 	int n;
 	std::cin>> n;
-	int income[100];
-	std::string names[100];
+	int income[n];
+	std::string names[n];
 	std::cout << "Enter the billionaires names and incomes : " << std::endl;
 	for(int i=0;i<n;i++)
 	{
