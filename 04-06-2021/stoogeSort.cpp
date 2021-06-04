@@ -31,6 +31,7 @@ int main()
 	std::cin >> n;
 	std::string districts[n];
 	int positive[n];
+	std::cout << " enter distric names and positive cases : " << std::endl;
 	for(int i=0;i<n;i++)
 	{
 		std::cin >> districts[i] >> positive[i] ;
